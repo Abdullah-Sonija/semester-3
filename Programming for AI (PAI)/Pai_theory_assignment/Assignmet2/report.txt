@@ -1,0 +1,39 @@
+---Hypothesis 1: Women And Childern First!---
+
+Survival Analysis by age and sex group
+
+AgeGroup     Child      Teen     Adult    Senior
+Sex                                             
+female    0.432432  0.753247  0.699561  1.000000
+male      0.379562  0.086957  0.202624  0.111111
+--Conclusion--
+Childern Survival rate: 40.32%
+Women Survival rate: 71.11%
+Men Survival rate: 18.63%
+Thus the data shows that the *Women And Childern First* drill was followed.
+
+
+---
+
+Hypothesis 2: Wealth
+
+Method A (Pclass) Survival Rates:
+Pclass
+1    68.91%
+2    48.00%
+3    23.91%
+
+Method B (FareBin) Survival Rates:
+FareBin
+Low         22.94%
+Medium      44.17%
+High        33.64%
+VeryHigh    60.94%
+
+Conclusion Comparison of Methods A and B:
+The data clearly shows a correlation between wealth and survival
+. Passengers in the highest wealth bracket (1st Class and Very High Fare) had advantage: 
+ 1st Class passengers survived at a rate of 69.00%, and those paying the highest fares survived at 61.00%.
+While, passengers in the lowest wealth bracket (3rd Class and Low Fare) were the least likely to survive: 
+ 3rd Class passengers had a survival rate of only 24.00%, while those in the lowest fare quantile survived at 23.00%.
+Because both Method A (discrete class) and Method B (continuous fare) show similar trends higher wealth equals higher survival the hypothesis that socio-economic status determined access to lifeboats is strongly supported.
